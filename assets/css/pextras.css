@@ -1,0 +1,121 @@
+html,body{
+    width: 100%;
+    height:100%;
+    background-color: #95B4CC;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80%;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 1rem ;
+    font-size: 1.5rem;
+    background-color:  #799FCB;
+}
+
+li{
+    width: 40%;
+    height: 6rem;
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+main p{
+    font-size: 2rem;
+}
+
+.img_carrinho img{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 0px;
+    right: 50px;
+    width: 100%;
+    justify-content: flex-end;
+    border-right: 2px;
+    background-color: #799FCB;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.carrinho_c{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+.mais{
+    display: flex;
+    position: absolute;
+    top: 9.8rem;
+    left: 45rem;
+}
+
+.menos{
+    display: flex;
+    position: absolute;
+    top: 9.8rem;
+    right: 45rem;
+}
+
+
+.mais2{
+    display: flex;
+    position: absolute;
+    top: 18rem;
+    left: 45rem;
+}
+
+.menos2{
+    display: flex;
+    position: absolute;
+    top: 18rem;
+    right: 45rem;
+}
+
+.mais4{
+    display: flex;
+    position: absolute;
+    top: 9.8rem;
+    left: 45rem;
+}
+
+.menos4{
+    display: flex;
+    position: absolute;
+    top: 9.8rem;
+    right: 45rem;
+}
+
+.qnt{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
